@@ -1,7 +1,7 @@
 organization=ug-software-engineering-i-2021-2
 projectKey=practica-calificada-1-SaidChoquehuanca
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.24075
+serverVersion=8.0.0.24170
 dashboardUrl=https://sonarcloud.io/dashboard?id=practica-calificada-1-SaidChoquehuanca
-ceTaskId=AXygKqPT21v3YuZL-j-q
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXygKqPT21v3YuZL-j-q
+ceTaskId=AXylx2GfSqeFjQnIRchO
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXylx2GfSqeFjQnIRchO

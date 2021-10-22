@@ -1,0 +1,96 @@
+
+5main.Lector#prestarse(Lmain/Libro;)Ljava/lang/String;`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java ("8"9*§
+2`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java) )(ÆÃ
+`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java) )(0
+
+%6void"main.Libro#setAdquirido(Z)V*
+
+libro_prestar
+main.Libro*
+""2setAdquirido(Z)"w
+`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java* *()
+Libro adquirido*­
+3`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java(1 ((>½º
+`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java(1 ((L
+%5boolean"main.Libro#isAdquirido()Z*
+
+libro_prestar
+main.Libro2isAdquirido()*
+2
+1*¥
+4`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java( (("µ²
+`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java( ((,
+%4boolean"main.Libro#isViejo()Z*
+
+libro_prestar
+main.Libro2	isViejo()*
+3
+1*³
+5`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java$ $(œ
+™
+`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java$ $(
+%2main.Libro[]"__id**
+main.Lector"
+libros´
+±
+`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java$ $(1
+%3"
+__arraySet*
+
+%2main.Libro[]*
+""*
+
+libro_prestar
+main.Libro"v
+`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java& &((
+Libro prestado*¥
+6`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java# #(µ²
+`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java# #(&
+%1boolean"main.Libro#isViejo()Z*
+
+libro_prestar
+main.Libro2	isViejo()*
+4
+5*ˆ
+7`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java   (M" 
+`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java   (N<:
+8Tiene el maximo el maximo de libros, no se puede prestar*Œ
+8`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java (œ
+™
+`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java (#
+%0main.Libro[]"__id**
+main.Lector"
+libros*
+6
+7*ó
+9`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java (8"‹
+`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java (9'%
+#Tiene una multa, no puede prestarse* 
+1`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java- -(i"¸
+`
+VD:/GitHub/GitHub/practica-calificada-1-SaidChoquehuanca/src/main/java/main/Lector.java- -(jTR
+PEste libro ya fue adquirido, te notificaremos cuando este dispobible a tu correo:
+libro_prestar
+main.LibroB
+main.Lector

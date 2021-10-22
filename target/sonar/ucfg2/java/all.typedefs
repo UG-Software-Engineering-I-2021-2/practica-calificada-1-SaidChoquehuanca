@@ -15,7 +15,36 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 notifyAll()java.lang.Object#notifyAll()V"
 wait()java.lang.Object#wait()V*
 
-hashCode()java.lang.Object#hashCode()I[
+hashCode()java.lang.Object#hashCode()Iê
+main.Lectorjava.lang.Object3
+getLibros()$main.Lector#getLibros()[Lmain/Libro;a
+(<init>(Ljava/lang/String;[Lmain/Libro;I)5main.Lector#<init>(Ljava/lang/String;[Lmain/Libro;I)V8
+getCorreo())main.Lector#getCorreo()Ljava/lang/String;P
+prestarse(Lmain/Libro;)5main.Lector#prestarse(Lmain/Libro;)Ljava/lang/String;%
+
+getMulta()main.Lector#getMulta()I¥
+
+main.Librojava.lang.Object.
+setAdquirido(Z)main.Libro#setAdquirido(Z)V"
+	isViejo()main.Libro#isViejo()Z*
+isAdquirido()main.Libro#isAdquirido()Z¦
+K<init>(Lmain/Autor;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Wmain.Libro#<init>(Lmain/Autor;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V3
+	getAnho()&main.Libro#getAnho()Ljava/lang/String;7
+getNombre()(main.Libro#getNombre()Ljava/lang/String;/
+
+getAutor()!main.Libro#getAutor()Lmain/Autor;=
+getEditorial()+main.Libro#getEditorial()Ljava/lang/String;â
+
+main.Autorjava.lang.ObjectŒ
+><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Jmain.Autor#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)VC
+getnacionalidad().main.Autor#getnacionalidad()Ljava/lang/String;7
+getNombre()(main.Autor#getNombre()Ljava/lang/String;5
+
+getFecha()'main.Autor#getFecha()Ljava/lang/String;å
+main.Bibliotecajava.lang.ObjectT
+Add_libro(Lmain/Libro;)9main.Biblioteca#Add_libro(Lmain/Libro;)Ljava/lang/String;'
+	<init>(I)main.Biblioteca#<init>(I)VA
+<init>([Lmain/Libro;I)'main.Biblioteca#<init>([Lmain/Libro;I)V[
 	main.Mainjava.lang.Object
 main()main.Main#main()V
 <init>()main.Main#<init>()V(
