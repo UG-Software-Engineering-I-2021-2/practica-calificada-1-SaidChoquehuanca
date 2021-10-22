@@ -4,6 +4,8 @@ import main.*;
 
 import org.junit.Test;
 import org.testng.Assert;
+import java.util.logging.Logger;
+import java.io.IOException;
 
 public class MainTest {
 
@@ -17,6 +19,10 @@ public class MainTest {
     Libro libro4 = new Libro(autor1,"El Monte Azul","1965","3 Barcos",true);
     Libro libro5 = new Libro(autor2,"El Caballero Dorado","2010","San Fernando",false);
 
+    Libro libros[] = {libro1,libro2};
+    Lector lector1 = new Lector("juan@gmail.com",libros,2);
+    Libro a[] = {};
+    Lector lector2 = new Lector("pedro@hotmail.com",a,0);
 
     @Test()
     public void test01(){
@@ -33,5 +39,13 @@ public class MainTest {
         biblio.Add_libro(libro5);
         Assert.assertEquals(biblio.Add_libro(libro2), "Ya no se puede agregar mas libros");
     }
+
+    @Test
+    public void test03(){
+        lector2.prestarse(libro3);
+        Assert.assertEquals(lector1.prestarse(libro3),"Este libro ya fue adquirido, te notificaremos cuando este dispobible a tu correo");
+    }
+
+    
 
 }

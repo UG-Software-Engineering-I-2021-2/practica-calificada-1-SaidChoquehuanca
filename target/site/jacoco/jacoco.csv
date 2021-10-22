@@ -1,0 +1,6 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+practica-calificada-1-SaidChoquehuanca,main,Biblioteca,52,0,2,0,15,0,4,0,3,0
+practica-calificada-1-SaidChoquehuanca,main,Autor,21,0,0,0,8,0,4,0,4,0
+practica-calificada-1-SaidChoquehuanca,main,Lector,71,0,10,0,22,0,10,0,5,0
+practica-calificada-1-SaidChoquehuanca,main,Libro,46,0,0,0,17,0,8,0,8,0
+practica-calificada-1-SaidChoquehuanca,main,Main,7,0,0,0,3,0,2,0,2,0

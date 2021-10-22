@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Lector.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">practica-calificada-1-SaidChoquehuanca</a> &gt; <a href="index.source.html" class="el_package">main</a> &gt; <span class="el_source">Lector.java</span></div><h1>Lector.java</h1><pre class="source lang-java linenums">package main;
+
+public class Lector {
+    String correo;
+<span class="nc" id="L5">    Libro libros[] = new Libro[3];</span>
+    int cant_libros;
+<span class="nc" id="L7">    int multa = 0;</span>
+
+<span class="nc" id="L9">    public Lector(String correo, Libro[] libros, int cant_libros) {</span>
+<span class="nc" id="L10">        this.correo = correo;</span>
+<span class="nc" id="L11">        this.libros = libros;</span>
+<span class="nc" id="L12">        this.cant_libros = cant_libros;</span>
+<span class="nc" id="L13">    }</span>
+
+    public String getCorreo() {
+<span class="nc" id="L16">        return correo;</span>
+    }
+
+    public Libro[] getLibros() {
+<span class="nc" id="L20">        return libros;</span>
+    }
+
+    public int getMulta() {
+<span class="nc" id="L24">        return multa;</span>
+    }
+
+    public String prestarse(Libro libro_prestar){
+<span class="nc bnc" id="L28" title="All 2 branches missed.">        if(this.multa&gt;=0){</span>
+<span class="nc" id="L29">            return &quot;Tiene una multa, no puede prestarse&quot;;</span>
+        }
+<span class="nc bnc" id="L31" title="All 2 branches missed.">        else if(cant_libros==libros.length){</span>
+<span class="nc" id="L32">            return &quot;Tiene el maximo el maximo de libros, no se puede prestar&quot;;</span>
+        }
+        else{
+<span class="nc bnc" id="L35" title="All 2 branches missed.">            if(libro_prestar.isViejo()){</span>
+<span class="nc" id="L36">                libros[cant_libros]=libro_prestar;</span>
+<span class="nc" id="L37">                cant_libros+=1;</span>
+<span class="nc" id="L38">                return &quot;Libro prestado&quot;;</span>
+            }
+<span class="nc bnc" id="L40" title="All 4 branches missed.">            else if(!libro_prestar.isViejo() &amp;&amp; !libro_prestar.isAdquirido() ){</span>
+<span class="nc" id="L41">                libro_prestar.setAdquirido(true);</span>
+<span class="nc" id="L42">                return &quot;Libro adquirido&quot;;</span>
+            }
+            else {
+<span class="nc" id="L45">                return &quot;Este libro ya fue adquirido, te notificaremos cuando este dispobible a tu correo&quot;;</span>
+            }
+        }
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

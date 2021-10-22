@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="practica-calificada-1-SaidChoquehuanca" target="17" />
+      <module name="practica-calificada-1-SaidChoquehuanca" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
